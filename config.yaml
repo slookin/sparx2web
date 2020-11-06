@@ -1,0 +1,61 @@
+repository: t_magic --- ;Connect=Cloud=protocol:https,address:ea-cloud.t-systems.com,port:443;Data Source=eacloud_tmagic;DSN=eacloud_tmagic;
+login: readonly
+password: readonly
+models:
+- model: PI 1
+  path: C:\ea_magic\new_way\pi1\target\site
+- model: PI 2
+  path: C:\ea_magic\new_way\pi2\target\site
+- model: PI 3
+  path: C:\ea_magic\new_way\pi3\target\site
+- model: PI 4
+  path: C:\ea_magic\new_way\pi4\target\site
+- model: PI 5
+  path: C:\ea_magic\new_way\pi5\target\site
+- model: PI 6
+  path: C:\ea_magic\new_way\pi6\target\site
+- model: PI 7
+  path: C:\ea_magic\new_way\pi7\target\site
+- model: PI 8
+  path: C:\ea_magic\new_way\pi8\target\site
+- model: PI 9
+  path: C:\ea_magic\new_way\pi9
+- model: PI 10
+  path: C:\ea_magic\new_way\pi10
+- model: PON Inventory
+  path: C:\ea_magic\new_way\pon_inventory\target\site
+- model: ONT IB
+  path: C:\ea_magic\new_way\ont_ib\target\site
+- model: OLT OS&R
+  path: C:\ea_magic\new_way\olt_osnr\target\site
+- model: DPU OS&R
+  path: C:\ea_magic\new_way\dpu_osnr\target\site
+- model: SID
+  path: C:\ea_magic\new_way\sid\target\site
+- model: TMF API v2.1
+  path: C:\ea_magic\new_way\tmf_api\target\site
+- model: DT IT Landscape
+  path: C:\ea_magic\new_way\dt_landscape\target\site
+- model: OLT OS&R NC PoC
+  path: C:\ea_magic\new_way\olt_osnr_nc_poc\target\site
+- model: HANSA
+  path: C:\ea_magic\new_way\hansa\target\site
+- model: DH_Models
+  path: C:\ea_magic\new_way\dh_models\target\site
+- model: Location&Address Data
+  path: C:\ea_magic\new_way\location\target\site
+- model: 'Domain1: Fiberbau'
+  path: C:\ea_magic\new_way\fiberbau\target\site
+- model: FTTH Factory Giga Megaplan Integration
+  path: C:\ea_magic\new_way\ftthf-giga-mega\target\site
+- model: Landlord
+  path: C:\ea_magic\new_way\landlord\target\site
+- model: Access 4.0
+  path: C:\ea_magic\new_way\a4\target\site
+- model: Service Order Management (Wholebuy)
+  path: C:\ea_magic\new_way\som_wb\
+- model: Service Order Management (Instant FF)
+  path: C:\ea_magic\new_way\som_instant_ff\
+- model: FiberCoop
+  path: C:\ea_magic\new_way\fiber_coop\
+
